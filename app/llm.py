@@ -1,5 +1,7 @@
 import os
+import time
 import requests
+from tqdm import tqdm
 
 OLLAMA_URL = "http://ollama:11434/api/generate"
 MODEL = os.getenv("OLLAMA_MODEL", "llama3")
@@ -73,14 +75,18 @@ def enhance(transcript: str, context: str) -> str:
     chunks = _split_into_chunks(transcript)
     results: list[str] = []
 
-    for i, chunk in enumerate(chunks, 1):
-        print(f"  LLM pass {i}/{len(chunks)}...")
+    bar = tqdm(chunks, desc="  LLM chunks", unit="chunk", ncols=70)
+    for i, chunk in enumerate(bar, 1):
+        bar.set_postfix_str(f"{len(chunk):,} chars")
         prompt = _build_prompt(chunk, context)
+        t0 = time.time()
         try:
             corrected = _call_ollama(prompt)
+            elapsed = time.time() - t0
+            bar.write(f"  Chunk {i}/{len(chunks)} done in {elapsed:.1f}s — {len(corrected):,} chars out")
             results.append(corrected)
         except Exception as exc:
-            print(f"  Warning: LLM call failed for chunk {i}: {exc}")
+            bar.write(f"  Warning: chunk {i} failed ({time.time() - t0:.1f}s): {exc}")
             results.append(chunk)  # fall back to raw chunk
 
     return "\n\n".join(results)

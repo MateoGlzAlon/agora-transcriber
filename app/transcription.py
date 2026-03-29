@@ -22,7 +22,11 @@ def transcribe(audio_path: str) -> str:
         [HH:MM:SS --> HH:MM:SS] text
     """
     print(f"  Transcribing: {audio_path}")
-    result = model.transcribe(audio_path, language=None)  # auto-detect language
+    print("  (each segment will print as it is decoded — this is slow on CPU)")
+    result = model.transcribe(audio_path, language=None, verbose=True)  # auto-detect language
+
+    detected_lang = result.get("language", "unknown")
+    print(f"  Detected language: {detected_lang}")
 
     segments = result.get("segments", [])
     if segments:
