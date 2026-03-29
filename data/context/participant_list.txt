@@ -1,0 +1,152 @@
+Accepted applications
+Total participants accepted: 143
+#
+Name
+Body
+Participant type and order
+Confirmed?
+Attended?
+Registered?
+031-0047	Emre Caner Küpeli	AEGEE-Aachen	delegate (1)	Yes	No	No
+031-0001	Evangelia Touska	AEGEE-Academy	envoy (1)	Yes	No	No
+031-0112	Robin Van 't Oosten	AEGEE-Amsterdam	delegate (1)	Yes	No	No
+031-0111	Lola Noteboom	AEGEE-Amsterdam	delegate (2)	Yes	No	No
+031-0085	Puck van Gendt	AEGEE-Amsterdam	delegate (3)	Yes	No	No
+031-0152	Kubilay Kaan Corut	AEGEE-Ankara	delegate (1)	Yes	No	No
+031-0014	İlbey Elibol	AEGEE-Antalya	delegate (1)	Yes	No	No
+031-0121	Bahri Laçin	AEGEE-Antalya	delegate (2)	Yes	No	No
+031-0099	Eyvaz Jafarov	AEGEE-Bakı	delegate (1)	Yes	No	No
+031-0105	Imran Huseynov	AEGEE-Bakı	delegate (2)	Yes	No	No
+031-0101	Sevinj Aghalarova	AEGEE-Bakı	delegate (3)	Yes	No	No
+031-0082	Sina Malin Brücks	AEGEE-Bamberg	delegate (1)	Yes	No	No
+031-0059	Miriam Lara	AEGEE-Barcelona	delegate (1)	Yes	No	No
+031-0145	Stevan Kulić	AEGEE-Beograd	delegate (1)	Yes	No	No
+031-0124	Davide Viscardi	AEGEE-Bergamo	delegate (1)	Yes	No	No
+031-0136	Ainhoa Ozamiz Barrio	AEGEE-Bilbao	delegate (1)	Yes	No	No
+031-0117	Matteo Boniotti	AEGEE-Brescia	delegate (1)	Yes	No	No
+031-0126	Diana Ong	AEGEE-Brussel-Bruxelles	delegate (1)	Yes	No	No
+031-0103	Roxana Horhocea	AEGEE-Bucureşti	delegate (1)	Yes	No	No
+031-0104	Ruxandra Dinache	AEGEE-Bucureşti	delegate (2)	Yes	No	No
+031-0106	Danca Larisa Antonela	AEGEE-Bucureşti	delegate (3)	Yes	No	No
+031-0035	Anna Mindler	AEGEE-Budapest	delegate (1)	Yes	No	No
+031-0073	Celia Soria	AEGEE-Burgos	delegate (1)	Yes	No	No
+031-0058	Toon Bruinink	AEGEE-Delft	delegate (1)	Yes	No	No
+031-0150	Ankit Singh Danu	AEGEE-Dresden	delegate (1)	Yes	No	No
+031-0151	Athithya Narayan Alwar Sreedhar	AEGEE-Dresden	delegate (2)	Yes	No	No
+031-0060	Mark Tempelman	AEGEE-Eindhoven	delegate (1)	Yes	No	No
+031-0095	Lina Mol	AEGEE-Eindhoven	delegate (2)	Yes	No	No
+031-0108	Tim Alberts	AEGEE-Eindhoven	delegate (3)	Yes	No	No
+031-0053	Mirthe Wijnveen	AEGEE-Enschede	delegate (1)	Yes	No	No
+031-0069	Chris van den Hoorn	AEGEE-Enschede	delegate (2)	Yes	No	No
+031-0107	Lieve Casteels	AEGEE-Enschede	delegate (3)	Yes	No	No
+031-0118	Franziska Bundrück	AEGEE-Erfurt	delegate (1)	Yes	No	No
+031-0022	Ongun Batuhan ALTAN	AEGEE-Eskişehir	delegate (1)	Yes	No	No
+031-0134	Sven Gotzmann	AEGEE-Gliwice	delegate (1)	Yes	No	No
+031-0051	Joris De Werd	AEGEE-Groningen	delegate (1)	Yes	No	No
+031-0052	Gabriël Heutink	AEGEE-Groningen	delegate (2)	Yes	No	No
+031-0061	Vincent Tebbens	AEGEE-Groningen	delegate (3)	Yes	No	No
+031-0076	Eda Kiracı	AEGEE-Hatay	envoy (1)	Yes	No	No
+031-0081	İbrahim Çam	AEGEE-Hatay	envoy (2)	Yes	No	No
+031-0048	Elisabeth Jones	AEGEE-Heidelberg	delegate (1)	Yes	No	No
+031-0054	Juliette Le Yaouanc	AEGEE-Heidelberg	delegate (2)	Yes	No	No
+031-0078	Nora Haidău	AEGEE-Iaşi	delegate (1)	Yes	No	No
+031-0083	Calugaru Catalina-Antonia	AEGEE-Iaşi	delegate (2)	Yes	No	No
+031-0100	Kaan Bakır	AEGEE-İstanbul	delegate (1)	Yes	No	No
+031-0120	Aysu Tunç	AEGEE-İstanbul	delegate (2)	Yes	No	No
+031-0125	Ekin Uç	AEGEE-İstanbul	delegate (3)	Yes	No	No
+031-0102	buket büber	AEGEE-İzmir	delegate (1)	Yes	No	No
+031-0122	Sena Şimşek	AEGEE-İzmir	delegate (2)	Yes	No	No
+031-0123	Mine Sophie Fişekçi	AEGEE-İzmir	delegate (3)	Yes	No	No
+031-0045	Mo Khogali	AEGEE-Joensuu	envoy (1)	Yes	No	No
+031-0115	Karol Marso	AEGEE-København	delegate (1)	Yes	No	No
+031-0089	Franciszek Michał Baczyński	AEGEE-Kraków	delegate (1)	Yes	No	No
+031-0086	Miłosz Małocha	AEGEE-Kraków	delegate (2)	Yes	No	No
+031-0023	Wojciech Krywult	AEGEE-Kraków	delegate (3)	Yes	No	No
+031-0033	Yuri van Ingen	AEGEE-Leiden	delegate (1)	Yes	No	No
+031-0034	Nina Brouwer	AEGEE-Leiden	delegate (2)	Yes	No	No
+031-0041	Vera Meerpoel	AEGEE-Leiden	delegate (3)	Yes	No	No
+031-0044	Yaiza Alonso Cuervo	AEGEE-León	delegate (1)	Yes	No	No
+031-0029	Tony Redondo	AEGEE-London	delegate (1)	Yes	No	No
+031-0109	Süleyman Rebge	AEGEE-Mağusa	delegate (1)	Yes	No	No
+031-0046	Rafael Adrian Garcia Martin	AEGEE-Málaga	envoy (1)	Yes	No	No
+031-0003	Anastasia Sidiropoulou	AEGEE-Maribor	envoy (1)	Yes	No	No
+031-0049	Anna Yakubovskaya	AEGEE-Moskva	delegate (1)	Yes	No	No
+031-0084	Alican Özakıncı	AEGEE-Muğla	delegate (1)	Yes	No	No
+031-0096	Osman Yunus Genç	AEGEE-Muğla	delegate (2)	Yes	No	No
+031-0038	Davide Lovisi	AEGEE-Napoli	delegate (1)	Yes	No	No
+031-0135	Alessandra Bianchi	AEGEE-Napoli	delegate (2)	Yes	No	No
+031-0072	Toon van Pinxten	AEGEE-Nijmegen	delegate (1)	Yes	No	No
+031-0071	Ilse Bouwmeester	AEGEE-Nijmegen	delegate (2)	Yes	No	No
+031-0074	Sjoerd van Berchum	AEGEE-Nijmegen	delegate (3)	Yes	No	No
+031-0119	Alma Stolz	AEGEE-Osnabrück	delegate (1)	Yes	No	No
+031-0040	Meeraj Bhardwaj	AEGEE-Passau	delegate (1)	Yes	No	No
+031-0008	Janina Rebstock	AEGEE-Passau	delegate (2)	Yes	No	No
+031-0010	Charlie Schindegger	AEGEE-Passau	delegate (3)	Yes	No	No
+031-0094	Carmela Santulli	AEGEE-Pescara	delegate (1)	Yes	No	No
+031-0133	Andrea Neviconi	AEGEE-Pescara	delegate (3)	Yes	No	No
+031-0080	Błażej Wojtkowski	AEGEE-Poznań	delegate (1)	Yes	No	No
+031-0079	Denisa Křepelková	AEGEE-Praha	delegate (1)	Yes	No	No
+031-0065	Jimmy van der Meer	AEGEE-Rotterdam	envoy (1)	Yes	No	No
+031-0005	Federico Melella	AEGEE-Salerno	delegate (1)	Yes	No	No
+031-0057	Vincenzo Ianniello	AEGEE-Salerno	delegate (2)	Yes	No	No
+031-0030	Khurram Shah	AEGEE-Sheffield	envoy (1)	Yes	No	No
+031-0087	Gabriela Radkova	AEGEE-Sofia	delegate (1)	Yes	No	No
+031-0028	Éléna Verlinden	AEGEE-Stockholm	envoy (1)	Yes	No	No
+031-0036	May Thu Khant	AEGEE-Stuttgart	delegate (1)	Yes	No	No
+031-0025	Saskia Kolberg	AEGEE-Tartu	delegate (1)	Yes	No	No
+031-0056	Jorge Cruz	AEGEE-Tenerife	delegate (1)	Yes	No	No
+031-0068	Hannah Fleury	AEGEE-Tilburg	delegate (1)	Yes	No	No
+031-0063	Florina-Marieta Neagu	AEGEE-Torino	delegate (1)	Yes	No	No
+031-0147	François Rodriguez	AEGEE-Toulouse	envoy (1)	Yes	No	No
+031-0131	Kelly Kocks	AEGEE-Treviso	delegate (1)	Yes	No	No
+031-0114	Elisa Fabiano	AEGEE-Udine	delegate (1)	Yes	No	No
+031-0070	Caspar Geelen	AEGEE-Utrecht	delegate (1)	Yes	No	No
+031-0077	Lukas Krabbenborg	AEGEE-Utrecht	delegate (2)	Yes	No	No
+031-0155	Annabel Rem	AEGEE-Utrecht	delegate (3)	Yes	No	No
+031-0088	Wout Willemsen	AEGEE-Utrecht		Yes	No	No
+031-0092	Julia Biszczuk	AEGEE-Warszawa	delegate (1)	Yes	No	No
+031-0137	Job Velthuis	Audit Commission	envoy (1)	Yes	No	No
+031-0002	Özgün Kaplama	Bridges of Dialogue Working Group	envoy (1)	Yes	No	No
+031-0039	Bente Aretz	Bridges of Dialogue Working Group	envoy (2)	Yes	No	No
+031-0026	Martyna Zapalska	Chair Team of the Agora	envoy (1)	Yes	No	No
+031-0027	Aleksander Zięba	Chair Team of the Agora	envoy (2)	Yes	No	No
+031-0062	David Mediavilla Aller	Chair Team of the Agora	envoy (3)	Yes	No	No
+031-0006	Bilal Ceyhan	Comité Directeur	envoy (1)	Yes	No	No
+031-0016	Petra Gombár	Comité Directeur	envoy (2)	Yes	No	No
+031-0018	Wiktor Bogusz	Comité Directeur	envoy (3)	Yes	No	No
+031-0021	Zsófia Napsugár Balla	Comité Directeur	envoy (4)	Yes	No	No
+031-0037	Alejandra Izquierdo González	Comité Directeur	envoy (5)	Yes	No	No
+031-0013	Furkan Gümüş	Denizli	observer (1)	Yes	No	No
+031-0064	Matthias Heindl	Deventer	observer (1)	Yes	No	No
+031-0011	Tomke Eiting	Digital Culture Working Group	envoy (1)	Yes	No	No
+031-0042	Defne Akar	ESTIEM	envoy (1)	Yes	No	No
+031-0004	Leon Vreling	Former Comité Directeur	envoy (1)	Yes	No	No
+031-0067	Eren Geçkin	Former Comité Directeur	envoy (2)	Yes	No	No
+031-0050	Eliise Haljas	Former Comité Directeur	envoy (3)	Yes	No	No
+031-0127	Daria Rzepisko	Former Comité Directeur	envoy (4)	Yes	No	No
+031-0007	Jan Jankowski	Former Comité Directeur	envoy (5)	Yes	No	No
+031-0093	Thyrsa Vuijst	Fundraising Committee	envoy (1)	Yes	No	No
+031-0055	Gunnar Erth	Honorary Members	visitor (1)	Yes	No	No
+031-0113	Rik Smale	Information Technology Committee	envoy (1)	Yes	No	No
+031-0031	Fabrizio Bellicano	Information Technology Committee	envoy (2)	Yes	No	No
+031-0024	Zofia Wójcicka	Juridical Commission	envoy (1)	Yes	No	No
+031-0149	Rebeca Urquizu	Juridical Commission	envoy (2)	Yes	No	No
+031-0098	Kamilla Kocsis	Mediation Commission	envoy (1)	Yes	No	No
+031-0032	Karoline Hubner	Network Commission	envoy (1)	Yes	No	No
+031-0020	Veli Berkan Kartal	Network Commission	envoy (2)	Yes	No	No
+031-0066	Andrea Lombardi	Network Commission	envoy (3)	Yes	No	No
+031-0110	Buda Gulyás	Network Commission	envoy (4)	Yes	No	No
+031-0012	Csongor Magyari	Network Commission	envoy (5)	Yes	No	No
+031-0075	Hassanein Al-Sallami	Network Commission	envoy (6)	Yes	No	No
+031-0097	Julia Frąszczak	Network Commission	envoy (7)	Yes	No	No
+031-0019	Yasemin Defne Şirin	Network Commission	envoy (8)	Yes	No	No
+031-0132	Ann Kristin Gildhoff	Policy Office	envoy (1)	Yes	No	No
+031-0148	Laura Hepp	Safe Person Committee	envoy (1)	Yes	No	No
+031-0153	Anna Lena Seidel	Safe Person Committee	envoy (2)	Yes	No	No
+031-0154	Erika Ebel	Safe Person Committee	envoy (3)	Yes	No	No
+031-0140	Adela Mujezinović	Sarajevo	observer (1)	Yes	No	No
+031-0144	Tesnim Masic	Sarajevo	observer (2)	Yes	No	No
+031-0015	Maria Magdalena Szczerbowska	Strategy Committee	envoy (1)	Yes	No	No
+031-0090	Nienke Klaassen	Strategy Committee	envoy (2)	Yes	No	No
+031-0128	Oluchi Obi	Strategy Committee	envoy (3)	Yes	No	No
+031-0146	Sándor Takács	Veszprém	observer (1)	Yes	No	No
