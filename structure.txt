@@ -1,0 +1,14 @@
+agora-transcriber/
+├── docker-compose.yml
+├── .env
+├── app/
+│   ├── main.py
+│   ├── rag.py
+│   ├── llm.py
+│   ├── transcription.py
+│   ├── diarization.py
+│   └── requirements.txt
+└── data/
+    ├── audio/
+    ├── context/
+    └── output/

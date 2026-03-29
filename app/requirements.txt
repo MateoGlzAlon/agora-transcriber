@@ -1,0 +1,6 @@
+openai-whisper
+ffmpeg-python
+chromadb
+sentence-transformers
+requests
+pypdf
