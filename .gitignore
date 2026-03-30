@@ -1,4 +1,5 @@
 data/output/
 data/video/
 data/audio/
+data/status/
 !data/output/.gitkeep
