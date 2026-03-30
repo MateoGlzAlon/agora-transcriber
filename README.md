@@ -141,3 +141,13 @@ To enable diarization in the future, see the comments in `app/diarization.py`.
 ├── Makefile
 └── .env
 ```
+
+Activity Plan CD63 -> 18:00 - 19:45
+Alumni -> 21:15 - 29:55
+Communications -> 34:40 - 42:10
+External relations -> 45:00 - 49:10
+Fundraising and partnerships -> 51:50 - 53:10
+Financial tools management ->56:15 - 1:07:10
+Network development -> 1:10:10 - 1:14:40
+Statutes management -> 1:15:50 - 1:19:40
+Entirety of the plan -> 1:19:50 - 1:23:00
