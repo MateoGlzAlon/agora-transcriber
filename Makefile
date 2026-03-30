@@ -1,20 +1,43 @@
 PROJECT = agora-transcriber
 COMPOSE  = docker compose
 
-.PHONY: help build up down logs pull-model run clean reset purge everything
+.PHONY: help build extract segment transcribe enhance all run status \
+        logs up down clean clean-status clean-raw reset purge everything
 
 help:
-	@echo "Available commands:"
-	@echo "  make build        Build Docker containers"
-	@echo "  make up           Start the Ollama service in the background"
-	@echo "  make pull-model   Manually pull the LLM model into Ollama"
-	@echo "  make run          Run the transcription pipeline"
-	@echo "  make logs         Follow all service logs"
-	@echo "  make down         Stop all services"
-	@echo "  make clean        Remove generated output files"
-	@echo "  make reset        Full cleanup (containers + volumes + outputs)"
-	@echo "  make purge        Remove volumes and images for this project"
-	@echo "  make everything   Full workflow: reset → build → run"
+	@echo ""
+	@echo "  AEGEE Agora Transcriber — Pipeline Stages"
+	@echo "  =========================================="
+	@echo ""
+	@echo "  Run each stage on a different day to avoid long sessions:"
+	@echo ""
+	@echo "    make extract      Convert video files to audio (fast, no GPU/LLM)"
+	@echo "    make segment      Split audio by segment definitions (fast, no GPU/LLM)"
+	@echo "    make transcribe   Transcribe audio with Whisper (slow — heavy CPU)"
+	@echo "    make enhance      Enhance transcripts with LLM via Ollama (slow — LLM)"
+	@echo "    make all          Run all stages in order (skips already-done files)"
+	@echo ""
+	@echo "  Status & monitoring:"
+	@echo ""
+	@echo "    make status       Show which files have been processed in each stage"
+	@echo "    make logs         Follow all service logs"
+	@echo ""
+	@echo "  Lifecycle:"
+	@echo ""
+	@echo "    make build        Build Docker containers"
+	@echo "    make up           Start Ollama in the background"
+	@echo "    make down         Stop all services"
+	@echo "    make run          Run the full pipeline in one shot"
+	@echo ""
+	@echo "  Cleanup:"
+	@echo ""
+	@echo "    make clean        Remove final output files (data/output/)"
+	@echo "    make clean-status Remove stage status markers (re-run stages from scratch)"
+	@echo "    make clean-raw    Remove raw transcripts (data/raw/)"
+	@echo "    make reset        Full cleanup: stop containers + remove all generated files"
+	@echo "    make purge        Reset + remove Docker volumes and images"
+	@echo "    make everything   Full one-shot: reset → build → run all stages"
+	@echo ""
 
 build:
 	$(COMPOSE) build
@@ -22,11 +45,48 @@ build:
 up:
 	$(COMPOSE) up -d ollama
 
-pull-model:
-	docker exec agora-ollama ollama pull $${OLLAMA_MODEL:-llama3}
+# ── Pipeline stages ──────────────────────────────────────────────────────────
+# extract, segment, transcribe: no Ollama needed (--no-deps skips starting it)
+# enhance: starts Ollama automatically via depends_on in docker-compose.yml
 
+extract:
+	$(COMPOSE) run --rm --no-deps app extract
+
+segment:
+	$(COMPOSE) run --rm --no-deps app segment
+
+transcribe:
+	$(COMPOSE) run --rm --no-deps app transcribe
+
+enhance:
+	$(COMPOSE) run --rm app enhance
+
+# Run all pipeline stages in order (skips already-completed files)
+all: extract segment transcribe enhance
+
+# Full pipeline in one shot (starts Ollama, runs all stages)
 run:
-	$(COMPOSE) up app
+	$(COMPOSE) run --rm app
+
+# ── Status ───────────────────────────────────────────────────────────────────
+
+status:
+	@echo ""
+	@echo "  Pipeline Status"
+	@echo "  ==============="
+	@if [ -d data/status ] && [ "$$(ls data/status/ 2>/dev/null | wc -l)" -gt 0 ]; then \
+		echo ""; \
+		for f in data/status/*; do \
+			echo "  ✓ $$(basename $$f)"; \
+		done; \
+		echo ""; \
+		echo "  Marker files are in data/status/ — 'cat data/status/<file>' for details."; \
+	else \
+		echo "  (no stages completed yet)"; \
+	fi
+	@echo ""
+
+# ── Utilities ────────────────────────────────────────────────────────────────
 
 logs:
 	$(COMPOSE) logs -f
@@ -34,15 +94,22 @@ logs:
 down:
 	$(COMPOSE) down
 
+# ── Cleanup ──────────────────────────────────────────────────────────────────
+
 clean:
 	rm -f data/output/*.txt
 
-reset: down clean
+clean-status:
+	rm -rf data/status
+
+clean-raw:
+	rm -rf data/raw
+
+reset: down clean clean-status clean-raw
 	$(COMPOSE) down -v
 
 purge: down
 	$(COMPOSE) down -v --rmi all
 
-# Full one-shot workflow: clean slate → build → start Ollama → run app
-# The app entrypoint waits for Ollama and pulls the model automatically.
+# Full one-shot workflow: clean slate → build → run all stages
 everything: reset build run
