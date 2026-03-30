@@ -49,15 +49,19 @@ up:
 # extract, segment, transcribe: no Ollama needed (--no-deps skips starting it)
 # enhance: starts Ollama automatically via depends_on in docker-compose.yml
 
+# step 1 of running
 extract:
 	$(COMPOSE) run --rm --no-deps app extract
 
+# step 2 of running
 segment:
 	$(COMPOSE) run --rm --no-deps app segment
 
+# step 3 of running
 transcribe:
 	$(COMPOSE) run --rm --no-deps app transcribe
 
+# step 4 of running
 enhance:
 	$(COMPOSE) run --rm app enhance
 
